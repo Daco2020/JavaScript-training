@@ -23,7 +23,11 @@ console.log(my_list.indexOf(500))
 // 파이썬과 동일하나 , 로 구분 -> 원본은 그대로
 console.log(my_list.slice(1,3))
 console.log(my_list)
+console.log(my_list.slice(1,))
+console.log(my_list)
 
 // 시작점 부터 ~ 번째(인덱스x) 만큼 제거 -> slice처럼 인덱스가 아님, 그리고 원본을 수정함
 console.log(my_list.splice(1,3))
+console.log(my_list)
+console.log(my_list.splice(1,))
 console.log(my_list)
