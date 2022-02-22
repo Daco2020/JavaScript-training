@@ -31,3 +31,6 @@ console.log(my_list.splice(1,3))
 console.log(my_list)
 console.log(my_list.splice(1,))
 console.log(my_list)
+
+// .lenght == 파이썬 len(my_list)
+console.log(my_list.length)
