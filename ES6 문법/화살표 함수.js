@@ -14,6 +14,7 @@ console.log(daco1(),daco2(),daco3())
 // ----------------
 
 // 화살표 함수는 this가 없다!
+// this는 파이썬의 self와 유사함
 
 
 let age = 17

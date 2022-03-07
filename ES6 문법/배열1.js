@@ -44,3 +44,4 @@ function getNumber(){
 }
 
 console.log(getNumber())
+
