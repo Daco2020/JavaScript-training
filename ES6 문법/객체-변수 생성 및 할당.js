@@ -27,3 +27,21 @@ console.log(a,b)
 // new, 단 키와 변수명이 일치하지 않으면 undefined 반환
 let {x,y} = daco
 console.log(x,y)
+
+
+// --------------
+
+//오브젝트 안에 오브젝트는 address:{city} 다음과 같이 선택이 가능하다
+let name="noona store"
+let fruits = ["banana","apple","mango"]
+let address={
+    country:"Korea",
+    city:"Seoul"
+}
+
+function findStore(obj){
+   let {name,address:{city}} = obj
+    return name=="noona store" && city=="Seoul"
+}
+
+console.log(findStore({name,fruits,address}))

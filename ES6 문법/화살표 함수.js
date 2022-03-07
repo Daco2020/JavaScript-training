@@ -39,3 +39,21 @@ let person2 = {
     }
 }
 person2.getInfo() // 20
+
+
+// ------------
+// 함수 활용
+function sumNumber() {
+    const sum = (a, b)=> a+b
+    return sum(40, 10);
+}
+
+
+// 
+function sumNumber() {
+    let addNumber= (a) => (b) => (c) => a + b + c; // ??
+    return addNumber(1)(2)(100);
+    
+}
+
+console.log(sumNumber())
